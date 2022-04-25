@@ -9,7 +9,7 @@ using System;
 
 namespace AEMS_Zundel.Data.Migrations
 {
-    [DbContext(typeof(ApplicationDbContext))]
+    [DbContext(typeof(EmployeeManagmentContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
